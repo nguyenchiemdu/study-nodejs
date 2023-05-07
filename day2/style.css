@@ -1,0 +1,147 @@
+:root {
+    --primary-color: #1435c3;
+    --white-color: white;
+    --gray-border: #e0e0e0;
+    --gray-background: #F5F5F5;
+    --gray-text: rgb(130, 134, 158);
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+/* head */
+.head {
+    height: 42px;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.text-button {
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+}
+
+.header-button {
+    margin-top: 10px;
+    padding: 0 20px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: none;
+}
+
+/* container */
+.container {
+    margin: 0 auto;
+    width: 80%;
+    height: 1000px;
+}
+
+/* nav */
+nav {
+    padding: 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+.categories {
+    margin: 5px 10px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid var(--gray-border);
+    border-radius: 8px;
+    color: var(--gray-border);
+}
+
+.search-group {
+    width: 40%;
+    display: inline-block;
+    border: 1px solid var(--gray-border);
+    background-color: var(--gray-background);
+    border-radius: 8px;
+    padding: 2px;
+    margin: auto 0;
+}
+
+.btn-search {
+    float: right;
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.search-box {
+    padding: 10px;
+    border: none;
+    background-color: var(--gray-background);
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+.login-group {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.login-options {
+    display: inline-block;
+}
+
+nav ul.login-options {
+    padding-left: 0;
+    list-style-type: none;
+    color: var(--gray-text);
+}
+
+.notification {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.cart-group {
+    display: inline-block;
+}
+
+/* content */
+.content {
+    background-color: var(--gray-background);
+}
+.breadcrumb {
+    color: var(--gray-text);
+}
+
+.column {
+    float: left;
+}
+.left {
+    width: 75%;
+}
+.right {
+    width: 25%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.product-detail {
+    margin-right:  30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--white-color);
+}
